@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 calc((100% - 1400px)/2);
+  height: 320px;
+  background-color: var(--footer-bg-color);
+  color: var(--white-text-color);
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .footer {
+    padding: 0 calc((100% - 1240px)/2);
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .footer {
+    padding: 0 calc((100% - 930px)/2);
+  }
+}

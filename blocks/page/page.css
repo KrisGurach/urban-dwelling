@@ -1,0 +1,23 @@
+.page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', 'sans-serif';
+}
+
+@media screen and (min-width: 1701px) {
+  .page {
+    padding: 0 calc((100% - 1400px)/2);
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .page {
+    padding: 0 calc((100% - 1240px)/2);
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .page {
+    padding: 0 calc((100% - 930px)/2);
+  }
+}

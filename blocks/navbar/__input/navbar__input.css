@@ -1,0 +1,22 @@
+.navbar__input {
+  margin-right: 20px;
+  padding: 0 45px 0 21px;
+  width: 170px;
+  height: 39px;
+  background-image: url(../../../images/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  border: 1px solid var(--light-grey-text-color);
+  border-radius: 88.65px;
+  outline: none;
+}
+
+.navbar__input:focus {
+  outline: 1px solid var(--main-color);
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .navbar__input {
+    display: none;
+  }
+}

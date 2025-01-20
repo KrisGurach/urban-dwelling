@@ -1,0 +1,15 @@
+.results__title {
+  margin: 0;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  font-family: 'Korataki';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1700px) {
+  .results__title {
+    font-size: 40px;
+  }
+}

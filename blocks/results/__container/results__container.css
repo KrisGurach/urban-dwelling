@@ -1,0 +1,24 @@
+.results__container {
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 50px;
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .results__container {
+    margin-bottom: 66px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .results__container {
+    margin-bottom: 66px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}

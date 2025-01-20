@@ -1,0 +1,29 @@
+.header__button {
+  background-color: var(--main-color);
+  color: var(--white-text-color);
+  border: none;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1701px) {
+  .header__button {
+    margin-right: calc((100% - 1400px)/2);
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .header__button {
+    margin-right: calc((100% - 1240px)/2);
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .header__button {
+    margin-right: calc((100% - 930px)/2);
+  }
+}
+

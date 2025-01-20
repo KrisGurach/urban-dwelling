@@ -1,0 +1,24 @@
+.results__button {
+  position: absolute;
+  top: 409px;
+  left: 31px;
+  width: 258px;
+  height: 48px;
+  margin: 0;
+  background-color: var(--orange-color);
+  color: var(--white-text-color);
+  border: none;
+  border-radius: 100px;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1700px) {
+  .results__button {
+    top: 361px;
+    left: 14px;
+  }
+}

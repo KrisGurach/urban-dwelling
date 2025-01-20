@@ -1,0 +1,10 @@
+.results__item-image {
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1700px) {
+  .results__item-image {
+    width: 287px;
+    height: 428px;
+  }
+}

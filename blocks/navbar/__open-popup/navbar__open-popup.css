@@ -1,0 +1,19 @@
+.navbar__open-popup {
+  display: none;
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .navbar__open-popup {
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    background-color: var(--main-color);
+    background-image: url(../../../images/search-icon-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 89px;
+    cursor: pointer;
+  }
+}
+

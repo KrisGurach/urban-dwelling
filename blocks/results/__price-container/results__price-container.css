@@ -1,0 +1,4 @@
+.results__price-container {
+  display: flex;
+  gap: 16px;
+}

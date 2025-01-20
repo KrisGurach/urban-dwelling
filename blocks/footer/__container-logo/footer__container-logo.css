@@ -1,0 +1,7 @@
+.footer__container-logo {
+  margin-top: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 33px;
+}
