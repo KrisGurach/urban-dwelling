@@ -21,3 +21,9 @@
     padding: 0 calc((100% - 930px)/2);
   }
 }
+
+@media screen and (min-width: 721px) and (max-width: 1020px) {
+  .page {
+    padding: 0 calc((100% - 680px)/2);
+  }
+}

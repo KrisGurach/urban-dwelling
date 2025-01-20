@@ -8,4 +8,10 @@
   background-color: var(--main-color);
 }
 
+@media screen and (min-width: 360px) and (max-width: 1020px) {
+  .header {
+    display: none;
+  }
+}
+
 

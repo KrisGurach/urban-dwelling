@@ -22,3 +22,12 @@
     grid-row-gap: 30px;
   }
 }
+
+@media screen and (min-width: 721px) and (max-width: 1020px) {
+  .results__container {
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+  }
+}

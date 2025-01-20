@@ -57,3 +57,15 @@ window.addEventListener('resize', () => {
       navbarInput.parentElement.removeChild(navbarInput);
   }
 });
+
+// Открытие/закрытие бургер-меню
+document.getElementById('burger-icon').addEventListener('click', function () {
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('show');
+});
+
+document.getElementById('burger-icon').addEventListener('click', function () {
+  this.classList.toggle('open');
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('active');
+});
