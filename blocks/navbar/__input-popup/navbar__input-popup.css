@@ -1,4 +1,4 @@
-.navbar__input {
+.navbar__input-popup {
   padding: 0 45px 0 21px;
   width: 170px;
   height: 39px;
@@ -8,14 +8,4 @@
   border: 1px solid var(--light-grey-text-color);
   border-radius: 88.65px;
   outline: none;
-}
-
-.navbar__input:focus {
-  outline: 1px solid var(--main-color);
-}
-
-@media screen and (min-width: 1021px) and (max-width: 1600px) {
-  .navbar__input {
-    display: none;
-  }
 }

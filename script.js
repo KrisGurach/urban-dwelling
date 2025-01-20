@@ -25,7 +25,7 @@ function toggleInputButton() {
   const navbarInput = document.querySelector('.navbar__input-popup');
   const popup = document.getElementById('popup');
 
-  if (window.innerWidth >= 1021 && window.innerWidth <= 1400) {
+  if (window.innerWidth >= 1021 && window.innerWidth <= 1600) {
       if (navbarInput) {
           navbarInput.parentElement.removeChild(navbarInput);
       }
@@ -33,7 +33,7 @@ function toggleInputButton() {
       popup.style.display = 'flex';
 
       const input = createInput();
-      popup.querySelector('.popup-content').appendChild(input);
+      popup.querySelector('.popup__content').appendChild(input);
   } else {
       if (navbarInput) {
         document.querySelector('.popup').style.display = 'none';
@@ -52,11 +52,8 @@ window.addEventListener('click', (event) => {
 });
 
 window.addEventListener('resize', () => {
-  document.querySelector('.popup').style.display = 'none';
-
   const navbarInput = document.querySelector('.navbar__input-popup');
   if (navbarInput) {
       navbarInput.parentElement.removeChild(navbarInput);
   }
-  toggleInputButton();
 });

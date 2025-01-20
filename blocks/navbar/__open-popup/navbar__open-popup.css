@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (min-width: 1021px) and (max-width: 1400px) {
+@media screen and (min-width: 1021px) and (max-width: 1600px) {
   .navbar__open-popup {
     display: inline-block;
     width: 39px;
