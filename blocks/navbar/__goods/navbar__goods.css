@@ -1,0 +1,16 @@
+@media screen and (min-width: 1021px) {
+  .navbar__goods {
+    margin: 0;
+    position: absolute;
+    top: 3px;
+    left: 97px;
+    background-color: var(--white-text-color);
+    color: var(--goods-text-color);
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    border: 0.4px solid var(--goods-borger-color);
+    text-align: center;
+  }
+}
+

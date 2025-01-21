@@ -17,6 +17,7 @@
 @import url(../blocks/navbar/__open-popup/navbar__open-popup.css);
 @import url(../blocks/navbar/__container/navbar__container.css);
 @import url(../blocks/navbar/__input-popup/navbar__input-popup.css);
+@import url(../blocks/navbar/__goods/navbar__goods.css);
 
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/burger/__icon/burger__icon.css);
