@@ -1,21 +1,82 @@
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 calc((100% - 1400px)/2);
-  height: 320px;
-  background-color: var(--footer-bg-color);
-  color: var(--white-text-color);
+@media screen and (min-width: 1021px) {
+  .footer {
+    box-sizing: border-box;
+    height: 320px;
+    background-color: var(--footer-bg-color);
+    color: var(--white-text-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "logo address services legal"
+    "captcha contacts services logos";
+    gap: 30px;
+    padding: 60px calc((100% - 1400px)/2);
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 721px) and (max-width: 1020px) {
+  .footer {
+    background-color: var(--footer-bg-color);
+    color: var(--white-text-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "logo logo logo"
+      "address contacts services"
+      "legal legal services"
+      "logos captcha captcha";
+    gap: 20px;
+    padding: 50px calc((100% - 728px)/2);
+  }
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1700px) {
   .footer {
-    padding: 0 calc((100% - 1240px)/2);
+    padding: 60px calc((100% - 1240px)/2);
   }
 }
 
 @media screen and (min-width: 1021px) and (max-width: 1400px) {
   .footer {
-    padding: 0 calc((100% - 930px)/2);
+    padding: 40px calc((100% - 930px)/2);
+  }
+}
+
+
+@media screen and (min-width: 721px) {
+  .footer__item--logo {
+    grid-area: logo;
+    width: 100%;
+    height: auto;
+  }
+
+  .footer__item--address {
+    grid-area: address;
+  }
+
+  .footer__item--contacts {
+    grid-area: contacts;
+    margin-right: 42px;
+  }
+
+  .footer__item--services {
+    grid-area: services;
+  }
+
+  .footer__item--legal {
+    grid-area: legal;
+  }
+
+  .footer__item--logos {
+    grid-area: logos;
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer__item--captcha {
+    grid-area: captcha;
   }
 }

@@ -5,5 +5,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  text-align: right;
+}
+
+@media screen and (min-width: 1021px) {
+  .footer__light-grey-text {
+    text-align: right;
+  }
 }

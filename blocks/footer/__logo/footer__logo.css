@@ -1,11 +1,18 @@
-.footer__logo {
+.footer__item--logo {
   width: 239px;
   height: 62px;
 }
 
 @media screen and (min-width: 1021px) and (max-width: 1700px) {
-  .footer__logo {
+  .footer__item--logo {
     width: 217px;
     height: 56px;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1020px) {
+  .footer__item--logo {
+    width: 180px;
+    height: 47px;
   }
 }
