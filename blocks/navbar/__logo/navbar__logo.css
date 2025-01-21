@@ -1,6 +1,11 @@
+.navbar__logo {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 360px) and (max-width: 720px) {
   .navbar__logo {
     width: 141px;
     height: 36px;
+    cursor: pointer;
   }
 }
