@@ -1,0 +1,19 @@
+.burger__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.burger__icon.open .burger__line:nth-child(1) {
+  transform: rotate(45deg) translate(3.5px, 3.5px);
+}
+
+.burger__icon.open .burger__line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger__icon.open .burger__line:nth-child(3) {
+  transform: rotate(-45deg) translate(3.5px, -3.5px);
+}

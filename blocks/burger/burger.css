@@ -1,0 +1,14 @@
+.burger {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 9px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1021px) {
+  .burger {
+    display: none;
+  }
+}

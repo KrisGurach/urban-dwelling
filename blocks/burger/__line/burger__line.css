@@ -1,0 +1,15 @@
+.burger__line {
+  margin-bottom: 3.4px;
+  width: 23px;
+  height: 1.3px;
+  background-color: var(--burger-bg-color);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burger__line:nth-child(2) {
+  margin-bottom: 3.5px;
+}
+
+.burger__line:nth-child(3) {
+  height: 1px;
+}
