@@ -11,3 +11,10 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .footer__item--logos {
+    margin-top: 42px;
+    justify-content: flex-start;
+  }
+}

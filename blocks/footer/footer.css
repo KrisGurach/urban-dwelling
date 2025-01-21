@@ -50,7 +50,27 @@
   }
 }
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .footer {
+    background-color: var(--footer-bg-color);
+    color: var(--white-text-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-areas:
+      "logo"
+      "address"
+      "contacts"
+      "services"
+      "legal"
+      "logos"
+      "captcha";
+    padding: 40px calc((100% - 320px)/2);
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 360px) {
   .footer__item--logo {
     grid-area: logo;
     width: 100%;
