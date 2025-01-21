@@ -4,3 +4,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .navbar {
+    height: 56px;
+  }
+}

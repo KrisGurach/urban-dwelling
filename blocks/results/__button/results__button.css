@@ -22,3 +22,14 @@
     left: 14px;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .results__button {
+    width: 100px;
+    height: 28px;
+    top: 192px;
+    left: 30px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+}

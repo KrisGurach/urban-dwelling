@@ -7,3 +7,10 @@
   line-height: 1.4;
   text-decoration: line-through;
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .results__item-old-price {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}

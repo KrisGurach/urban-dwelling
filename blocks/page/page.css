@@ -27,3 +27,10 @@
     padding: 0 calc((100% - 680px)/2);
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .page {
+    padding: 0 calc((100% - 320px)/2);
+  }
+}
+

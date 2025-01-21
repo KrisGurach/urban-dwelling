@@ -16,3 +16,12 @@
   text-align: center;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .results__item-discount {
+    padding-top: 2px;
+    width: 70px;
+    height: 24px;
+    font-size: 14px;
+  }
+}

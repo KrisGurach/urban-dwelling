@@ -13,3 +13,9 @@
     max-width: 382px;
   }
 }
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .footer__grey-text {
+    font-size: 14px;
+  }
+}

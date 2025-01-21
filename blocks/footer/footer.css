@@ -1,3 +1,15 @@
+@media screen and (min-width: 1701px) {
+  .footer {
+    padding: 60px calc((100% - 1400px)/2);
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .footer {
+    padding: 60px calc((100% - 1240px)/2);
+  }
+}
+
 @media screen and (min-width: 1021px) {
   .footer {
     box-sizing: border-box;
@@ -11,9 +23,14 @@
     "logo address services legal"
     "captcha contacts services logos";
     gap: 30px;
-    padding: 60px calc((100% - 1400px)/2);
     margin: 0 auto;
+  }
 }
+
+@media screen and (min-width: 1021px) and (max-width: 1400px) {
+  .footer {
+    padding: 40px calc((100% - 930px)/2);
+  }
 }
 
 @media screen and (min-width: 721px) and (max-width: 1020px) {
@@ -32,19 +49,6 @@
     padding: 50px calc((100% - 728px)/2);
   }
 }
-
-@media screen and (min-width: 1401px) and (max-width: 1700px) {
-  .footer {
-    padding: 60px calc((100% - 1240px)/2);
-  }
-}
-
-@media screen and (min-width: 1021px) and (max-width: 1400px) {
-  .footer {
-    padding: 40px calc((100% - 930px)/2);
-  }
-}
-
 
 @media screen and (min-width: 721px) {
   .footer__item--logo {

@@ -8,3 +8,11 @@
     height: 428px;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .results__item-image {
+    width: 155px;
+    height: 230px;
+    border-radius: 10px;
+  }
+}

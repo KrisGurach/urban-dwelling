@@ -31,3 +31,12 @@
     grid-row-gap: 50px;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .results__container {
+    margin-bottom: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+  }
+}

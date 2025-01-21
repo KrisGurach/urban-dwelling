@@ -6,3 +6,10 @@
   font-size: 22px;
   line-height: 1.4;
 }
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  .results__item-new-price {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
